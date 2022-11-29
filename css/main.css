@@ -4,8 +4,8 @@
 /*Remove this rule on your HTML elements as you start to fill them with content*/
 
 .box-color {
-	color: #fff;
-	background: #000;
+	color: black;
+	/* background: #000; */
 	text-align: center;
 	margin: 0;
 }
@@ -28,7 +28,7 @@ img {
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'calibri',arial,cooper;
 	font-size: 12px;
 }
 
@@ -84,22 +84,73 @@ you work on and the intended audience */
 	height: 80px;
 }
 
+#main-nav li {
+	display: inline;
+	padding: 20px;
+	margin: 20px;
+	font-size: 30px;
+}
+
 #header-box2 {
 	grid-column: 11/-1;
+	padding-top: 10px;
 	/* Remove as content will dictate height */
-	height: 80px;
+	height: 70px;
+	font-size: 30px;
+	list-style: none;
 }
 
 /* Specific to index page desktop  */
 
 #hero {
 	margin-top: 100px;
+	background-image: url(..//images/home_page_desktop_assets/ramp_grind.JPG);
 }
 
 #hero-text {
 	grid-column: 1/8;
+	font-size: 48px;
+	text-align: left;
+	/* color: #000; */
 	/* Remove as content will dictate height */
-	height: 582px;
+	/* height: 582px; */
+}
+
+#hero_text p {
+	font-size: 28px;
+	text-align: left;
+}
+
+.button {
+	display: inline-flex;
+	background: #476071;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 28px;
+	width: 200px;
+	height: 50px;
+	font-weight: 500;
+	cursor: pointer;
+	
+}
+
+.button:hover {
+	background: #666666;
+}
+
+.button:active {
+	background: #343434;
+}
+
+.button__text {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff;
+	height: 100%;
 }
 
 #hero-image {
@@ -116,6 +167,7 @@ you work on and the intended audience */
 #products h2 {
 	grid-column: 1/-1;
 	text-align: center;
+	font-size: 48px;
 }
 
 #product1 {
@@ -141,48 +193,159 @@ you work on and the intended audience */
 }
 
 #about-con {
-	background-color: #ddd;
+	background-color: #9bb0be;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 #about-title {
 	text-align: center;
+	font-size: 48px;
 }
 
 #about-text {
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	text-align: left;
+}
+
+#about-text h3 {
+	font-size: 48px;
+}
+
+#about-text p {
+	font-size: 26px;
+}
+
+/* .button2 {
+	display: inline-flex;
+	background: #476071;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 28px;
+	width: 200px;
+	height: 50px;
+	font-weight: 500;
+	cursor: pointer;
+} */
+
+.button__text2 {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff;
+	height: 100%;
 }
 
 #about-image {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
 	height: 700px;
+	
 }
 
 #contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	
 }
 
 #contact-text {
 	grid-column: 1/8;
 	/* Remove as content will dictate height */
 	height: 700px;
+	text-align: left;
+	font-size: 60px;
+}
+
+#contact p {
+	font-size: 40px;
 }
 
 #contact-form {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
 	height: 700px;
+	background: #476071;
+}
+
+#contact-form-hero h2{
+    grid-column: 7/12;
+    align-self: end;
+}
+
+#contact-form-text p {
+    grid-column: 2/12;
+    margin-bottom: 80px;
+}
+
+#contact-form-adress-left {
+    grid-column: 2/6;
+}
+
+#contact-form-fields-right {
+    grid-column: 6/12;
+}
+
+#contact-form-adress-left {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#contact-form-adress-left p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#contact-form-fields-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 22px 0;
+	padding-left: 22px;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+    background-color: #aaaaaa;
+    margin-top: 30px;
+	width: 600px;
+    font: inherit;
+	font-size: 28px;
+	border-radius: 15%;
+}
+
+#contact-form-fields-right textarea {
+    height: 300px;
+}
+
+input[type="submit"] {
+    width: 600px;
+    padding: 16px 64px;
+    background-color: #9bb0be;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+	border-radius: 20%;
+}
+
+input[type="submit"]:hover {
+    background-color: #666666;
+    border-radius: 0;
+}
+
+input[type="submit"]:active {
+	background: #343434;
 }
 
 /*Common page elements  */
 
 #footer-con {
-	background-color: #aaaaaa;
+	background-color: #9bb0be;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -198,6 +361,17 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 80px;
 	margin-bottom: 100px;
+	background: #666666;
+	border-radius: 10%;
+}
+
+#footer-nav li {
+	display: inline;
+	padding: 20px;
+	margin: 20px;
+	font-size: 30px;
+	
+	
 }
 
 #footer-newsletter1 {

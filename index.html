@@ -22,7 +22,7 @@
                         <li><a href="gallery.html"></a>Skateboards</li>
                         <li><a href="index.html">Accessories</a></li>
                         <li><a href="#">Lessons</a></li>
-                        <li><a href="#">contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
                         <li><a href="#">More</a></li>
                     </ul>
                 </nav>
@@ -34,41 +34,72 @@
         </div> 
 
         <main>
+
+            <!-- <img src="images/home_page_desktop_assets/ramp_grind.JPG" alt="ramp grind" id="hero-image"> -->
+
             <section class="grid-con" id="hero">
                 <h2 class="hidden">Hero Images</h2>
-                <div id="hero-text" class="box-color"></div>
-                    <p></p>
-                <img src="https://via.placeholder.com/674x582" alt="image" id="hero-image">
+                <div id="hero-text" class="box-color">No One Shredz Competition Like Spence Shredz <h6>Grab any skateboard and join the shred! We have the newest and best selection of skateboards from all around. That's not all we also carrier all the tools needed to shred, safety equipment, hardware, wheels, trucks and merchandize so everyone can be a shredder. Or better yet become a member to officially join the Shredz squad.</h6>
+                    <button type="button" class="button">
+                        <span class="button__text">Read more</span>
+                    </button>
+                </div>
+                
+                <img src="images/home_page_desktop_assets/night_skating.JPG" alt="night_skating" id="hero-image">
+                
+                <!-- <h5 id="button"><a href="#">Read More</a></h5> -->
             </section>  
 
             <section class="grid-con" id="products">
                 <h2>Latest & Greatest</h2>
                 <div class="product-box" id="product1">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="images/home_page_desktop_assets/skateboards_x2.JPG" alt="Skateboards">
                 </div>
                 <div class="product-box" id="product2">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="images/home_page_desktop_assets/accessories.jpg" alt="accessories">
                 </div>
                 <div class="product-box" id="product3">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+                    <img src="images/home_page_desktop_assets/ramp_guys.JPG" alt="Lessons">
                 </div>
             </section>
 
             <h2 id="about-title">The Shredderz Squad</h2>
-            <div id="about-con">
-                <div class="grid-con" id="about">
+            <section id="about-con">
+                <h2 class="hidden"> The Shredz Squad</h2>
+                <article class="grid-con" id="about">
                     <div id="about-text" class="box-color">
+                        <h3>Meet The Medalists That Shred Away Competition</h3><p>Meet the shredderz squad. The most elite skaters from around the globe, featuring, hosting and winning skate competitions from far and wide. Winning gold after gold filling our trophy case. These are the best of the best skateboarders in the industry and can show you the most advanced tricks if your looking to take your shredding to the next level.  If that's the case our shredderz squad can help you! No matter the skill level we will help you take your skating to the shred level. To read more about our individual skaters or to put in a specific request for lessons just click on the shredder of your choice or click read more to learn more about the shredderz squad and what we do. </p>
                     </div>
-                    <img src="https://via.placeholder.com/674x700" alt="image" id="about-image">
-                </div>
-            </div>
+                   
+                    <img src="images/home_page_desktop_assets/shrez_squad.png" alt="Squad"> 
+                    <button type="button" class="button">
+                        <span class="button__text2">Read more</span>
+                    </button>
+                </article>
+            </section>
             
             <section class="grid-con" id="contact">
-                <h3 class="hiiden">Contact Us</h3>
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                </div>
+                <h3 class="hidden">Contact Us</h3>
+                <section id="contact-text" class="box-color">
+                    <h2>Feel free to contact us</h2><p>Contact Information for the client: <br> 
+                        138 Dundas Street London, ON </p>
+                        <h3 class="hidden">Phone, Fax and Email</h3>
+                    <p><br>
+                        Call 1 234 567-8901 <br>
+                        Email: shredzatgmail.com <br>
+                        FAX:+1 123 456 7890 <br>
+                    </p>    
+                </section>
+                <section id="contact-form" class="box-color">
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First Name">
+                        <input name="LastName" type="text" placeholder="Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
             </section> 
         </main>
 
@@ -76,14 +107,24 @@
             <h2 class="hidden">Spence Shredz Footer</h2>
                 <div class="grid-con" id="footer">
                     <div id="footer-logo" class="box-color">
+                        <img src="images/home_page_desktop_assets/logo_shred.png" alt="logo">
                     </div>
-                    <div id="footer-nav" class="box-color">
-                    </div>
+                    <nav id="footer-nav" class="box-color">                      
+                         <h2 class="hidden">Main Navigation</h2>
+                         <ul>
+                            <li><a href="gallery.html"></a>Skateboards</li>
+                            <li><a href="index.html">Accessories</a></li>
+                            <li><a href="#">Lessons</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">More</a></li>
+                        </ul>
+                    </nav>
                     <div id="footer-newsletter1" class="box-color">
                     </div>
                     <div id="footer-newsletter2" class="box-color">
                     </div>
                     <div id="footer-social" class="box-color">
+                        <a href="#"><img src="images/home_page_desktop_assets/socials.png" alt="FACEBOOK"></a>
                     </div>
                 </div>
         </footer>
