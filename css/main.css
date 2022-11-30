@@ -28,10 +28,17 @@ img {
 /*html selectors*/
 
 body {
-	font-family: 'calibri',arial,cooper;
+	font-family: 'Cooper', "Cooper Black", Georgia, serif;
 	font-size: 12px;
 }
 
+body h6 {
+	font-family: 'calibri';
+}
+
+body p {
+	font-family: 'calibri';
+}
 /* Remove underlines from links */
 
 a {
@@ -43,6 +50,7 @@ a {
 .hidden {
 	display: none;
 }
+
 
 
 /*Common page elements  */
@@ -88,7 +96,7 @@ you work on and the intended audience */
 #main-nav li {
 	display: inline;
 	padding: 20px;
-	margin: 20px;
+	margin: 10px;
 	font-size: 30px;
 }
 
@@ -101,6 +109,10 @@ you work on and the intended audience */
 	height: 70px;
 	font-size: 30px;
 	list-style: none;
+}
+
+#header-box2 a {
+	color: #000000;
 }
 
 /* Specific to index page desktop  */
@@ -395,7 +407,7 @@ input[type="submit"]:active {
 #footer-nav li {
 	display: inline;
 	padding: 20px;
-	margin: 20px;
+	margin: 10px;
 	font-size: 30px;
 }
 
@@ -408,7 +420,8 @@ input[type="submit"]:active {
 	/* Remove as content will dictate height */
 	height: 80px;
 	font-weight: bolder;
-	font-size: 28px;
+	font-size: 30px;
+	margin-top: -30px;
 }
 
 
@@ -432,22 +445,10 @@ input[type="submit"]:active {
 	padding-left: 15px;
 	padding-right: 15px;
 	color: white;
-
+	height: 80px;
+	margin-left: 100px;
 }
 
-/* .button__text3 {
-	display: inline-flex;
-	align-items: center;
-	padding: 0 px;
-	color: #fff;
-	height: 100%;
-	width: 20px;
-} */
-
-#footer-newsletter2, span {
-	font-weight: bolder;
-	font-size: 50px;
-}
 
 #footer-social {
 	grid-column: 11/-1;
