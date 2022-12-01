@@ -28,7 +28,7 @@ img {
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Cooper', "Cooper Black", Georgia, serif;
 	font-size: 12px;
 }
 
@@ -55,6 +55,10 @@ you work on and the intended audience, we may go as low as 320px */
 #container {
 	margin: 0 auto;
 	width: 428px;
+	background: url(../images/home_page_mobile_assets/down_ledge.jpg) no-repeat;
+	background-color: #9BB0BE;
+	
+
 }
 
 /* this is our grid based off of our XD file */
@@ -91,7 +95,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	/* background: url("https://via.placeholder.com/428x458"); */
 	height: 458px;
 }
 
