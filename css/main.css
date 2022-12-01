@@ -408,6 +408,14 @@ input[type="submit"]:active {
 	color: #fff;
 }
 
+#footer-nav ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+#footer-nav li a {
+	color: black;
+}
+
 #footer-newsletter1 {
 	grid-column: 1/5;
 	/* Remove as content will dictate height */
@@ -471,6 +479,7 @@ input[type="submit"]:active {
 	margin: 0 auto;
 	width: 1920px;
 	background: url(../images/interior_page_desktop_assets/hero_sit_box.jpg) no-repeat;
+	background-color: #9bb0be;
 }
 
 #gallery-hero-con {
