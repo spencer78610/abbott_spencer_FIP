@@ -239,7 +239,7 @@ you work on and the intended audience */
 #about-con {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-image: linear-gradient(150deg, #476071 0%, #9bb0be 35%, #fff 100%);
+	background-image: linear-gradient(90deg, #fff 0%, #9bb0be 35%, #476071 100%);
 }
 
 #about-title {
