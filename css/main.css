@@ -97,11 +97,17 @@ you work on and the intended audience */
 	border-radius: 50px;
 }
 
+#main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
 #main-nav li {
 	display: inline; 
 	padding: 15px;
-	margin: 5px;
+	margin: 0px 5px 20px 5px;
 	font-size: 30px;
+	
 }
 
 #main-nav ul li a:hover {
@@ -528,8 +534,7 @@ input[type="submit"]:active {
 	width: 497px;
 	height: 116px;
 	color: white;
-	padding: 20px;
-	padding-top: 80px;
+	padding: 45px 20px 45px 20px;
 	text-align: center;
 	font-size: 50px;
 	margin-top: -220px;
