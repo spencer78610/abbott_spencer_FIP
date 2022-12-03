@@ -216,6 +216,18 @@ you work on and the intended audience */
 	position: absolute;
 }
 
+#red_bumper {
+    width: 100%;
+    height: 6px;
+    background-color: red;
+
+    transition: height 0.2s ease;
+
+    position: absolute
+}
+
+#characters li:hover .red_bumper {height: 70px;}
+
 #product1 {
 	grid-column: 1/5;
 	/* Remove as content will dictate height */

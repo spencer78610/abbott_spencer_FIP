@@ -217,6 +217,15 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height: 350px;
 	margin-bottom: 150px;
+	color: #fff;
+}
+
+#contact-text h3 {
+	font-size: 50px;
+}
+
+#contact-text p {
+	font-size: 28px;
 }
 
 #contact-form {
