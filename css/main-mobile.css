@@ -4,8 +4,8 @@
 /*Remove this rule on your HTML elements as you start to fill them with content*/
 
 .box-color {
-	color: #fff;
-	background: #000;
+	/* color: #fff;
+	background: #000; */
 	text-align: center;
 	margin: 0;
 }
@@ -55,7 +55,7 @@ you work on and the intended audience, we may go as low as 320px */
 #container {
 	margin: 0 auto;
 	width: 428px;
-	background: url(../images/home_page_mobile_assets/down_ledge.jpg) no-repeat;
+	background: url(../images/home_page_mobile_assets/skateboarder_wall.jpg) no-repeat;
 	background-color: #9BB0BE;
 	
 
@@ -71,9 +71,10 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #header-con {
-	background-color: #ddd;
+	background-color: #476071;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	opacity: 70%;
 }
 
 #header-logo {
@@ -86,7 +87,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 .burger {
 	height: 16px;
-	background-color:#aaa;
+	background-color:#AFDDFC;
 	display: block;
 	margin-bottom: 10px;
 }
@@ -94,7 +95,7 @@ you work on and the intended audience, we may go as low as 320px */
 /* index page */
 
 #hero-con {
-	background-color: #aaaaaa;
+	/* background-color: #aaaaaa; */
 	/* background: url("https://via.placeholder.com/428x458"); */
 	height: 458px;
 }
@@ -104,6 +105,16 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height: 380px;
 	margin-top: 20px;
+	text-align: left;
+	color: #fff;
+}
+
+#hero-text h3 {
+	font-size: 40px;
+}
+
+#hero-text p {
+	font-size: 28px;
 }
 
 #image-slider-con {
@@ -114,11 +125,29 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #image-slider-con h2 {
-	background-color: #ffffff;
+	font-size: 50px;
+}
+
+#image-slider-con h3 {
+	background: rgba(71, 96, 113, 0.8);	
+	width: 406px;
+	height: 78px;
+	color: white;
+	padding: 45px 2px 45px 20px;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	font-size: 50px;
+	margin-top: -170px;
+	position: absolute;
+	font: 'calibri';
+}
+
+#image-slider-con h2 {
+	background-color: #9BB0BE;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin: 0;
+	color: #fff;
 }
 
 #mobile-slider-left {
@@ -126,7 +155,7 @@ you work on and the intended audience, we may go as low as 320px */
 	left: 0;
 	font-size: 120px;
 	color:#fff;
-	top: 200px;
+	top: 400px;
 }
 
 #mobile-slider-right {
@@ -134,19 +163,30 @@ you work on and the intended audience, we may go as low as 320px */
 	right: 0;
 	font-size: 120px;
 	color:#fff;
-	top: 200px;
+	top: 400px;
 }
 
 #about-us-con h2 {
-	background-color: #ffffff;
+	background-color: #9BB0BE;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 190px;
 	padding-bottom: 70px;
 	margin: 0;
+	font-size: 50px;
+	color: #fff;
 }
 
 #about-us-text-con {
-	background-color: #dddddd;
+	background-color: #476071;
+	color: #fff;
+}
+
+#about-us-text-con h3 {
+	font-size: 50px;
+}
+
+#about-us-text-con p {
+	font-size: 28px;
 }
 
 #about-us-text {
@@ -155,6 +195,10 @@ you work on and the intended audience, we may go as low as 320px */
 	height: 580px;
 	margin-top: 70px;
 	margin-bottom: 40px;
+}
+
+#about-us-photos {
+	border: 100px black;
 }
 
 .about-us-photo {
@@ -179,13 +223,56 @@ you work on and the intended audience, we may go as low as 320px */
 	grid-column: 1/-1;
 	/* Remove as content will dictate height */
 	height: 580px;
+	background-color: #476071;
+}
+
+input[type="submit"] {
+    width: 340px;
+    padding: 10px 64px;
+    background-color: #9bb0be;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+}
+
+input[type="submit"]:hover {
+    background-color: #666666;
+	cursor: pointer;
+}
+
+input[type="submit"]:active {
+	background: #343434;
+}
+
+input, textarea {
+	padding-left: 22px;
+    border: 2px solid #aaaaaa;
+    border-radius: 50px;
+    background-color: #aaaaaa;
+	width: 340px;
+    font: inherit;
+	font-size: 28px;
+	margin-top: 20px;
+}
+
+textarea { height: 260px; }
+
+input::placeholder, textarea::placeholder { color: white; }
+
+#contact-form-fields-right textarea {
+    height: 300px;
 }
 
 /*Common page elements  */
 
 #footer-con {
 	height: 410px;
-	background-color: #aaa;
+	background-color: #9BB0BE;
+}
+
+#socials {
+	margin-left: 355px;
+	margin-bottom: 700px;
 }
 
 #footer-box {
@@ -193,7 +280,7 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:45px;
 	grid-column: 1/3;
-	background-color: #ddd;
+	/* background-color: #ddd; */
 }
 
 #footer-newsletter {
@@ -201,7 +288,33 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height:100px;
 	grid-column: 1/-1;
-	background-color: #ddd;
+	/* background-color: #ddd; */
+}
+
+#button3 {
+	background: #476071;
+	border: none;
+	border-radius: 50px;
+	overflow: hidden;
+	font-family: 'cooper';
+	font-size: 50px;
+	font-weight: bolder;
+	cursor: pointer;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	height: 80px;
+	margin-left: 50px;
+	width: 280px;
+	margin-top: 30px;
+}
+
+#button3:hover {
+	background: #666666;
+}
+
+#button3:active {
+	background: #343434;
 }
 
 /* gallery page */
