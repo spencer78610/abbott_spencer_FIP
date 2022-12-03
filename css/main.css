@@ -532,7 +532,7 @@ input[type="submit"]:active {
 #gallery-box-text {
 	background: rgba(71, 96, 113, 0.8);	
 	width: 497px;
-	height: 116px;
+	height: 127px;
 	color: white;
 	padding: 45px 20px 45px 20px;
 	text-align: center;
@@ -540,4 +540,8 @@ input[type="submit"]:active {
 	margin-top: -220px;
 	position: absolute;
 	font: 'calibri';
+}
+
+.gallery-box:hover {
+	opacity: 50%;
 }
