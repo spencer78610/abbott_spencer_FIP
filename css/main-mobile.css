@@ -372,6 +372,19 @@ input::placeholder, textarea::placeholder { color: white; }
 	margin-bottom: 20px;
 }
 
+.gallery-box h3 {
+	background: rgba(71, 96, 113, 0.8);	
+	width: 406px;
+	height: 78px;
+	color: white;
+	padding: 45px 2px 45px 20px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: -170px;
+	position: absolute;
+	font: 'calibri';
+}
+
 #footer-newsletter2 {
 	margin-top: 20px;
 	height:40px;
