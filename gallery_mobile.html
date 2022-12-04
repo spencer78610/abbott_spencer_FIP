@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Spence Skateboards</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <!-- students must convert divs to semantic tags -->
 	<div id="container">
         
-        <div id="header-con">
-            <div id="main-header" class="grid-con">
+        <header id="header-con">
+            <section id="main-header" class="grid-con">
+                <h2 class="hidden">Main Navigation</h2>
                 <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
                  <div id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
                  </div>
-            </div>    
-        </div> 
+            </section>    
+        </header> 
 
         <main>
             <div id="hero-gallery-con">
-                <div class="grid-con">
+                <section class="grid-con">
+                    <h2 class="hidden">Hero</h2>
                     <div id="hero-gallery-text" class="box-color">
                     </div>
                     <div id="gallery-controls">
@@ -30,42 +32,47 @@
                         <span class="dot"></span>
                         <span class="dot"></span>
                     </div>
-                </div>
+                </section>
             </div>
 
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
+            <section class="grid-con" id="gallery">
+                <h2>Skateboards</h2>
+                <p>All Boards Come In All Sizes</p>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/gorilla.jpg" alt="gorilla">
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/tunnel.jpg" alt="tunnel">
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/sunset.jpg" alt="sunset">
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/frog.jpg" alt="frog">
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/pinch.jpg" alt="pinch">
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/interior_page_mobile_assets/one_punch.jpg" alt="one_punch">
                 </div>
-            </div>              
+            </section>              
         </main>
 
-        <div id="footer-con">
-            <div class="grid-con">
+        <footer id="footer-con">
+            <section class="grid-con">
                 <div id="footer-box">
+                    <a href="index_mobile.html"><img src="images/home_page_mobile_assets/logo_shred.png" alt="logo"></a>
                 </div>
                 <div id="footer-newsletter">
+                    <h3 class="nws">Newsletter - sign-up</h3>
+                    <input name="contactInfo" type="text" required placeholder="Email:">
                 </div>
                 <div id="footer-newsletter2">
+                    <button type="button" id="button3">Subscribe</button>
                 </div>
-            </div>
-        </div>
+            </section>
+        </footer>
     </div> 
 </body>
 </html>
