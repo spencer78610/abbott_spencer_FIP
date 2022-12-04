@@ -411,11 +411,6 @@ input::placeholder, textarea::placeholder { color: white; }
 	position: absolute;
 	font: 'calibri';
 }
-/* 
-#footer-con-gallery {
-	height: 410px;
-	background-color: #476071;
-} */
 
 #footer-newsletter2 {
 	margin-top: 0;
