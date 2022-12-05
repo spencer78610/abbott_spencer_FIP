@@ -55,7 +55,7 @@ you work on and the intended audience, we may go as low as 320px */
 #container {
 	margin: 0 auto;
 	width: 428px;
-	background: url(../images/home_page_mobile_assets/skateboarder_wall.jpg) no-repeat;
+	background: url(../images/home_page_mobile_assets/skateboarder_wall.png) no-repeat;
 	background-color: #9BB0BE;
 	
 
@@ -209,7 +209,7 @@ you work on and the intended audience, we may go as low as 320px */
 #contact-us-con {
 	margin-top: 100px;
 	margin-bottom: 60px;
-	background: url(../images/home_page_mobile_assets/shadow_skateboarder.jpg) no-repeat;
+	background: url(../images/home_page_mobile_assets/shadow_skateboarder.png) no-repeat;
 }
 
 #contact-text {
@@ -335,7 +335,7 @@ input::placeholder, textarea::placeholder { color: white; }
 
 #hero-gallery-con {
 	background-color: #aaaaaa;
-	background: url("../images/interior_page_mobile_assets/down_ledge.jpg") no-repeat;
+	background: url("../images/interior_page_mobile_assets/down_ledge.png") no-repeat;
 	height: 558px;
 	margin-top: -100px;
 }

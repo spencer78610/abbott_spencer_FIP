@@ -63,7 +63,7 @@ you work on and the intended audience */
 #container {
 	margin: 0 auto;
 	width: 1920px;
-	background: url(../images/home_page_desktop_assets/ramp_grind.JPG) no-repeat;
+	background: url(../images/home_page_desktop_assets/ramp_grind.png) no-repeat;
 }
 
 /* this is our grid based off of our XD file */
@@ -294,7 +294,7 @@ you work on and the intended audience */
 #contact {
 	/* margin-top: 100px;
 	margin-bottom: 100px; */
-	background: url(..//images/home_page_desktop_assets/standing_board.JPG);
+	background: url(..//images/home_page_desktop_assets/standing_board.png) no-repeat;
 	height: 1054px;
 }
 
@@ -548,7 +548,7 @@ input[type="submit"]:active {
 	margin-bottom: 20px;
 }
 
-#gallery-box-text {
+.gallery-box-text {
 	background: rgba(71, 96, 113, 0.8);	
 	width: 497px;
 	height: 127px;
