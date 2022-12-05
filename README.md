@@ -32,3 +32,5 @@ For the contact us page I changed the border radius to 50px to make the form mor
 The footer was challenging and gave me a battle the subscribe and email button did not want to move now matter the padding and marging or position. I figured out I had to use -px for the margin in order to get it where I wanted but after everything was in place. The newsletter text went out of place but that was as challenging I just exstended the width until it was long enough to be 'inline'.
 
  Lastly I ran it through the code vaildator and corrected any mistakes I had.
+
+ # Contribution html Gallery
