@@ -96,4 +96,7 @@ Next I re arrange the contact form boxes to fit the mobile view because it was w
 I also had to go back and add another image because I reliezed I didn't have enough so I added it behind the contact form text.
 
 I took away all the not needed code and background colors. Before finishing it by running it through the validator. 
+
 # Contribution GP Mobile css
+
+First I
