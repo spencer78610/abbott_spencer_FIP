@@ -99,4 +99,20 @@ I took away all the not needed code and background colors. Before finishing it b
 
 # Contribution GP Mobile css
 
-First I
+First I made sure all my classes and ids were linked and added or changed any tags that needed it.
+
+I then went added changed all the background colors to match my wireframe and to give me an understanding of where to put everything.
+
+Next I added my hero image in the gallery container.
+
+ I then had to move the hero text to make it easier to read.
+
+I then moved the slider dots lower to make them more visable
+
+Also I change the font to cooper and the color to white to match my wireframe.
+
+Next I added the product boxes to show the text for each board.
+
+The newsletter and everything else was already in place because of the mobile HP css
+
+Lastly I took away all the not needed code and background colors. Before finishing it by running it through the validator. 
