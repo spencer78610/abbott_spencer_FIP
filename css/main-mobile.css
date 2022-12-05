@@ -55,6 +55,13 @@ you work on and the intended audience, we may go as low as 320px */
 #container {
 	margin: 0 auto;
 	width: 428px;
+<<<<<<< Updated upstream
+=======
+	background: url(../images/home_page_mobile_assets/skateboarder_wall.png) no-repeat;
+	background-color: #9BB0BE;
+	
+
+>>>>>>> Stashed changes
 }
 
 /* this is our grid based off of our XD file */
@@ -162,6 +169,10 @@ you work on and the intended audience, we may go as low as 320px */
 #contact-us-con {
 	margin-top: 100px;
 	margin-bottom: 60px;
+<<<<<<< Updated upstream
+=======
+	background: url(../images/home_page_mobile_assets/shadow_skateboarder.png) no-repeat;
+>>>>>>> Stashed changes
 }
 
 #contact-text {
@@ -204,8 +215,28 @@ you work on and the intended audience, we may go as low as 320px */
 
 #hero-gallery-con {
 	background-color: #aaaaaa;
+<<<<<<< Updated upstream
 	background: url("https://via.placeholder.com/428x458");
 	height: 458px;
+=======
+	background: url("../images/interior_page_mobile_assets/down_ledge.png") no-repeat;
+	height: 558px;
+	margin-top: -100px;
+}
+
+#hero-gallery-text h2 {
+	font-size: 48px;
+	color: #fff;
+	text-align: left;
+	position: relative;
+	margin-top: 80px;
+}
+
+#hero-gallery-text p {
+	font-size: 28px;
+	color: #fff;
+	text-align: left;
+>>>>>>> Stashed changes
 }
 
 #hero-gallery-text {
