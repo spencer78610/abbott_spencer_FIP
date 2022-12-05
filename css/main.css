@@ -446,6 +446,7 @@ input[type="submit"]:active {
 .nws {
 	width: 290px;
 	font-size: 28px;
+	color: #fff;
 }
 
 #footer-newsletter2 {
@@ -557,7 +558,6 @@ input[type="submit"]:active {
 	font-size: 50px;
 	margin-top: -220px;
 	position: absolute;
-	font: 'calibri';
 }
 
 .gallery-box:hover {
