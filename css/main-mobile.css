@@ -138,7 +138,6 @@ you work on and the intended audience, we may go as low as 320px */
 	font-size: 50px;
 	margin-top: -170px;
 	position: absolute;
-	font: 'calibri';
 }
 
 #image-slider-con h2 {
@@ -255,6 +254,7 @@ input[type="submit"]:active {
 
 input, textarea {
 	padding-left: 22px;
+	padding-top: 8px;
     border: 2px solid #aaaaaa;
     border-radius: 50px;
     background-color: #aaaaaa;
@@ -413,7 +413,6 @@ input::placeholder, textarea::placeholder { color: white; }
 	font-size: 50px;
 	margin-top: -170px;
 	position: absolute;
-	font: 'calibri';
 }
 
 #footer-newsletter2 {
