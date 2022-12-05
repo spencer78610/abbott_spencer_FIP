@@ -75,6 +75,8 @@ you work on and the intended audience, we may go as low as 320px */
 	padding-top: 10px;
 	padding-bottom: 10px;
 	opacity: 70%;
+	position: sticky;
+	top: 0px;
 }
 
 #header-logo {
@@ -95,8 +97,6 @@ you work on and the intended audience, we may go as low as 320px */
 /* index page */
 
 #hero-con {
-	/* background-color: #aaaaaa; */
-	/* background: url("https://via.placeholder.com/428x458"); */
 	height: 458px;
 }
 
@@ -298,6 +298,10 @@ input::placeholder, textarea::placeholder { color: white; }
 	height:100px;
 	grid-column: 1/-1;
 	/* background-color: #ddd; */
+}
+
+#footer-newsletter h3 {
+	color: #fff;
 }
 
 #button3 {
